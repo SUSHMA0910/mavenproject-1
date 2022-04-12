@@ -64,4 +64,16 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-BCNQDSH-releases</name>
+        <url>http://localhost:8081/artifactory/run1</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>DESKTOP-BCNQDSH-snapshots</name>
+        <url>http://localhost:8081/artifactory/run3</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
